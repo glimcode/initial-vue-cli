@@ -1,13 +1,18 @@
 <template>
   <div id="app">
+    <xHeader></xHeader>
     <router-view/>
   </div>
 </template>
 
 <script>
 import './assets/stylus/index.styl'
+import xHeader from './components/common/header'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    xHeader
+  }
 }
 </script>
 
