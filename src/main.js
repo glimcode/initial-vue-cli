@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import 'normalize.css'
 import 'element-ui/lib/theme-chalk/index.css'
+import echarts from 'echarts'
 
 import {
   Pagination,
@@ -147,6 +148,7 @@ Vue.prototype.$confirm = MessageBox.confirm
 // Vue.prototype.$prompt = MessageBox.prompt
 // Vue.prototype.$notify = Notification
 Vue.prototype.$message = Message
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 
